@@ -2,7 +2,7 @@ pipeline {
   agent any
 
  environment {
-  NOMBRE = "tere"
+  NOMBRE = "Teresinha"
    
 }
 
