@@ -2,8 +2,8 @@ pipeline {
   agent any
 
  environment {
-  nombre = "tere"
-   = ""
+  NOMBRE = "tere"
+   
 }
 
   stages {
@@ -24,7 +24,7 @@ pipeline {
      }
     stage('ejecutar param'){
       steps{
-        sh 'java Param'
+        sh 'java Param {$NOMBRE}'
       }
     }
   }
