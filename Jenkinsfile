@@ -17,12 +17,12 @@ pipeline {
         sh 'java Simple'
       }
     }
-    stage('compilar') {
+    stage('compilar param') {
       steps {
         sh 'javac Param.java'
       }
      }
-    stage('ejecutar'){
+    stage('ejecutar param'){
       steps{
         sh 'java Param'
       }
