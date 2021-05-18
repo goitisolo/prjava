@@ -3,7 +3,7 @@ pipeline {
 
  environment {
   nombre = "tere"
-   
+   = ""
 }
 
   stages {
